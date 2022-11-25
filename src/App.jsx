@@ -106,10 +106,10 @@ function App() {
     <div className="App">
       <h1 className="harryPotter">Chamber Of</h1>
       <h2 className="harryPotter">Secrets</h2>
-      <iframe src="./assets/Theme.MP3" allow="autoplay" id="audio" style={{display: "none"}}></iframe>
+      <iframe src="/assets/Theme.MP3" allow="autoplay" id="audio" style={{display: "none"}}></iframe>
 
     <audio id="player" autoPlay loop>
-      <source src="./assets/Theme.MP3" type="audio/mp3" />
+      <source src="/assets/Theme.MP3" type="audio/mp3" />
   </audio>
 
       <div className="d-flex" style={{ marginLeft: "20%" }}>
