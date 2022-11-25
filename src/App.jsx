@@ -101,9 +101,7 @@ function App() {
       setCount(count + 1);
     }
   };
-
-  console.log(password);
-
+  
   return (
     <div className="App">
       <h1 className="harryPotter">Chamber Of</h1>
