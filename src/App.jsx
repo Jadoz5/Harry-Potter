@@ -101,7 +101,7 @@ function App() {
       setCount(count + 1);
     }
   };
-  
+
   return (
     <div className="App">
       <h1 className="harryPotter">Chamber Of</h1>
@@ -109,7 +109,7 @@ function App() {
       <iframe src="./Theme.MP3" allow="autoplay" id="audio" style={{display: "none"}}></iframe>
 
     <audio id="player" autoPlay loop>
-      <source src="./Theme.MP3" type="audio/mp3" />
+      <source src="/Theme.MP3" type="audio/mp3" />
   </audio>
 
       <div className="d-flex" style={{ marginLeft: "20%" }}>
