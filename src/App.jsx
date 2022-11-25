@@ -106,7 +106,7 @@ function App() {
     <div className="App">
       <h1 className="harryPotter">Chamber Of</h1>
       <h2 className="harryPotter">Secrets</h2>
-      <iframe src="./Theme.MP3" allow="autoplay" id="audio" style={{display: "none"}}></iframe>
+      <iframe src="/Theme.MP3" allow="autoplay" id="audio" style={{display: "none"}}></iframe>
 
     <audio id="player" autoPlay loop>
       <source src="/Theme.MP3" type="audio/mp3" />
